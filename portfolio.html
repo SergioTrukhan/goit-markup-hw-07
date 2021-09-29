@@ -13,7 +13,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles.css">
+    <!-- <link rel="stylesheet" href="./css/styles.css"> -->
+    <link rel="stylesheet" href="./css/main.min.css">
+
 </head>
 
 <body>
@@ -22,7 +24,7 @@
 
         <header class="header portfolio-header">
             <div class="container">
-                <nav class="nav-content">
+                <nav class="header__nav-content">
                     <a href="./index.html" class="logo"><span class="web">Web</span>Studio</a>
                     <ul class="site-nav">
                         <li class="header-item"><a href="./index.html">Студия</a> </li>
@@ -269,32 +271,32 @@
             <div class="footer-link-container">
                 <h3 class="footer-connect">ПРИСОЕДИНЯЙТЕСЬ</h3>
                 <ul class="footer-social-links">
-                    <li class="footer-link-icon">
-                        <a class="footer-social-link" href="">
+                    <li class="footer-social-links__icon">
+                        <a class="footer-social-links__link" href="">
                             <svg class="footer-social-icon" width="20" height="20">
                                 <use href="./images/icons.svg#icon-instagram-2-1"></use>
                             </svg>
                         </a>
     
                     </li>
-                    <li class="footer-link-icon">
-                        <a class="footer-social-link" href="">
+                    <li class="footer-social-links__icon">
+                        <a class="footer-social-links__link" href="">
                             <svg class="footer-social-icon" width="20" height="20">
                                 <use href="./images/icons.svg#icon-twitter-1-1"></use>
                             </svg>
                         </a>
     
                     </li>
-                    <li class="footer-link-icon">
-                        <a class="footer-social-link" href="">
+                    <li class="footer-social-links__icon">
+                        <a class="footer-social-links__link" href="">
                             <svg class="footer-social-icon" width="20" height="20">
                                 <use href="./images/icons.svg#icon-facebook-1-1"></use>
                             </svg>
                         </a>
     
                     </li>
-                    <li class="link-icon">
-                        <a class="footer-social-link" href="">
+                    <li class="footer-social-links__icon">
+                        <a class="footer-social-links__link" href="">
                             <svg class="footer-social-icon" width="20" height="20">
                                 <use href="./images/icons.svg#icon-linkedin-1-1"></use>
                             </svg>
@@ -303,7 +305,25 @@
                     </li>
                 </ul>
             </div>
+            <div class="footer-link-container footer-form">
+                <h3 class="footer-connect footer-connect-sign">Подпишитесь на рассылку</h3>
+                <form action="" class="footer-sign-form">
+                    <div class="footer-email-block">
+                        <label for="footer-email"></label>
+                        <input type="email" class="footer-email" placeholder="E-mail">
+                        <button type="submit" class="footer-sign-button">Подписаться
+                            <svg class="footer-sign-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-plane-1"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
         </div>
+    
+    
+    </footer>
+    </div>
     
     
     </footer>
