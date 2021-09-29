@@ -8,7 +8,7 @@
   margin-bottom: 94px;
 }
 
-.client-icon {
+.client-list__icon {
   justify-content: center;
   align-items: center;
   display: flex;
@@ -24,16 +24,16 @@
   justify-content: center;
 }
 
-.client-item {
+.client-list__item {
   &:not(:last-child) {
     margin-right: 30px;
   }
 }
 
-.client-icon {
+.client-list__icon {
   fill: #afb1b8;
-  .client-section-link:hover &,
-  .client-section-link:focus & {
+  .client-list__link:hover &,
+  .client-list__link:focus & {
     fill: var(--accent-color);
     border: var(--accent-color) solid 1px;
   }
